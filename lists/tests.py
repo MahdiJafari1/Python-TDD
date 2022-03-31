@@ -3,6 +3,7 @@ from django.urls import resolve
 from django.template.loader import render_to_string
 from django.test import TestCase
 from lists.views import home_page
+from selenium.webdriver.common.by import By
 
 
 class HomePageTest(TestCase):
@@ -14,3 +15,4 @@ class HomePageTest(TestCase):
         response = self.client.post("/", data={"item_text": "A new list item"})
         self.assertIn("A new list item", response.content.decode())
         self.assertTemplateUsed(response, 'home.html')
+
