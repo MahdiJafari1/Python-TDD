@@ -1969,3 +1969,403 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught e
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
+1649396589245	geckodriver	INFO	Listening on 127.0.0.1:46983
+1649396589755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55709" "-no-remote" "-profile" "/tmp/rust_mozprofileZpGrzn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649396592541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZpGrzn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55709/devtools/browser/6dece2ec-1b69-4e1e-8abe-8a3ab42f1eda
+1649396596366	Marionette	INFO	Listening on port 33813
+Read port: 33813
+1649396596493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:40443"
+1649396607356	Marionette	INFO	Stopped listening on port 33813
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649396608631	geckodriver	INFO	Listening on 127.0.0.1:50309
+1649396609138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35221" "-no-remote" "-profile" "/tmp/rust_mozprofilepkB4iZ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649396611731	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepkB4iZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35221/devtools/browser/a064d5a1-db5e-446a-99fd-84c9c86bf09d
+1649396615211	Marionette	INFO	Listening on port 45791
+Read port: 45791
+1649396615268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649396625618	Marionette	INFO	Stopped listening on port 45791
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649396626880	geckodriver	INFO	Listening on 127.0.0.1:50317
+1649396627388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58861" "-no-remote" "-profile" "/tmp/rust_mozprofilePgPwy7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649396629924	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePgPwy7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58861/devtools/browser/486155d6-7151-4ccc-bdbc-b57db0b91969
+1649396633670	Marionette	INFO	Listening on port 35571
+Read port: 35571
+1649396633725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:40443"
+1649396644183	Marionette	INFO	Stopped listening on port 35571
+1649397116683	geckodriver	INFO	Listening on 127.0.0.1:48207
+1649397117192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33757" "-no-remote" "-profile" "/tmp/rust_mozprofilelE712d"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397119717	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelE712d/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33757/devtools/browser/6a605b22-c5ee-41b3-bba8-de956a7e702b
+1649397123441	Marionette	INFO	Listening on port 45271
+Read port: 45271
+1649397123527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:41969"
+1649397124715	Marionette	INFO	Stopped listening on port 45271
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+18118
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649397191790	geckodriver	INFO	Listening on 127.0.0.1:34643
+1649397192300	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35301" "-no-remote" "-profile" "/tmp/rust_mozprofileTwk0p5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397194802	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTwk0p5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35301/devtools/browser/76724423-a26b-4f5a-ae96-47f4fd5b6823
+1649397198181	Marionette	INFO	Listening on port 38937
+Read port: 38937
+1649397198232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649397208436	Marionette	INFO	Stopped listening on port 38937
+1649397209708	geckodriver	INFO	Listening on 127.0.0.1:42283
+1649397210218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52803" "-no-remote" "-profile" "/tmp/rust_mozprofileSOUL6B"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397212701	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSOUL6B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52803/devtools/browser/d4947b99-3e35-4cf9-b309-ffc65460cbee
+1649397217171	Marionette	INFO	Listening on port 40983
+Read port: 40983
+1649397217255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:41969"
+1649397218481	Marionette	INFO	Stopped listening on port 40983
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+18616
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649397322848	geckodriver	INFO	Listening on 127.0.0.1:45927
+1649397323353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37355" "-no-remote" "-profile" "/tmp/rust_mozprofile8bgEkN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397325969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8bgEkN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37355/devtools/browser/3923bc0b-f7c5-4a9e-b6a6-864c5ddaf154
+1649397329709	Marionette	INFO	Listening on port 45405
+Read port: 45405
+1649397329786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:42281"
+1649397331109	Marionette	INFO	Stopped listening on port 45405
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+19102
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649397397424	geckodriver	INFO	Listening on 127.0.0.1:48969
+1649397397934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45961" "-no-remote" "-profile" "/tmp/rust_mozprofileonEd1a"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397400559	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileonEd1a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45961/devtools/browser/2ebc2ed8-34e6-492b-a71e-42f52d6925d7
+1649397403951	Marionette	INFO	Listening on port 40645
+Read port: 40645
+1649397404075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649397414291	Marionette	INFO	Stopped listening on port 40645
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649397417556	geckodriver	INFO	Listening on 127.0.0.1:38413
+1649397418064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58565" "-no-remote" "-profile" "/tmp/rust_mozprofileNkSna7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649397420827	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNkSna7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58565/devtools/browser/0e10b394-34c7-4fcf-bd3d-889911dd47d2
+1649397424389	Marionette	INFO	Listening on port 37863
+Read port: 37863
+1649397424499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:42281"
+1649397425317	Marionette	INFO	Stopped listening on port 37863
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+20116
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649398362884	geckodriver	INFO	Listening on 127.0.0.1:38507
+1649398363393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33677" "-no-remote" "-profile" "/tmp/rust_mozprofileA1oE6E"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649398367575	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA1oE6E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33677/devtools/browser/28c97d62-1159-4bff-816d-18ca3c32dc71
+1649398371532	Marionette	INFO	Listening on port 42309
+Read port: 42309
+1649398371632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:53437"
+1649398372419	Marionette	INFO	Stopped listening on port 42309
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+22332
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649398439523	geckodriver	INFO	Listening on 127.0.0.1:59299
+1649398440335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57359" "-no-remote" "-profile" "/tmp/rust_mozprofileCfsQK4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649398444482	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCfsQK4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57359/devtools/browser/ce773d21-1125-4321-bbca-647f5aec5b28
+1649398448558	Marionette	INFO	Listening on port 38827
+Read port: 38827
+1649398448676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649398459529	Marionette	INFO	Stopped listening on port 38827
+1649398462545	geckodriver	INFO	Listening on 127.0.0.1:45693
+1649398463054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42871" "-no-remote" "-profile" "/tmp/rust_mozprofileTeTOaP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649398466270	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTeTOaP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42871/devtools/browser/d9bc01f9-7feb-42b2-b0af-09b0eb89603e
+1649398470256	Marionette	INFO	Listening on port 46761
+Read port: 46761
+1649398470291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:53437"
+1649398471683	Marionette	INFO	Stopped listening on port 46761
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2451\"  data: no]"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
