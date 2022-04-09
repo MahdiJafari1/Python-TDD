@@ -16,11 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from lists import views
-from lists import urls as list_urls
-from lists import views as list_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home_page, name="home"),
-    path("/lists/", include(list_urls)),
+    path("lists/", include("lists.urls")),
 ]
