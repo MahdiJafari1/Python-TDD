@@ -10,12 +10,14 @@
     <h1>Start a To-Do list</h1>
     <form method="POST" action="/lists/new">
       {% csrf_token %}
-      <input
+      <p style="text-align: center;">
+        <input
         type="text"
         name="item_text"
         id="id_new_item"
         placeholder="Enter a to-do item"
-      />
+        />
+      </p>
     </form>
   </body>
 </html>
