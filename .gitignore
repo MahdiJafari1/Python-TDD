@@ -1,3 +1,4 @@
-./superlists/__pycache__
-./lists/__pycache__
-./functional_tests/__pycache__
+superlists/__pycache__
+lists/__pycache__
+functional_tests/__pycache__
+static
