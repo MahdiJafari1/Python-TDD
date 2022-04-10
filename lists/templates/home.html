@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do lists</title>
-  </head>
-  <body>
-    <h1>Start a To-Do list</h1>
-    <form method="POST" action="/lists/new">
-      {% csrf_token %}
-      <p style="text-align: center;">
-        <input
-        type="text"
-        name="item_text"
-        id="id_new_item"
-        placeholder="Enter a to-do item"
-        />
-      </p>
-    </form>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block header_text %}
+  Start a new To-Do list
+{% endblock header_text %}
+
+{% block form_action %}
+  /lists/new
+{% endblock form_action %}
