@@ -3569,3 +3569,134 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1649571798653	geckodriver	INFO	Listening on 127.0.0.1:47177
+1649571799158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52101" "-no-remote" "-profile" "/tmp/rust_mozprofileUffrAA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649571802236	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUffrAA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52101/devtools/browser/c1a95f3b-4f62-4261-a262-4cad2a1dafad
+1649571806902	Marionette	INFO	Listening on port 45655
+Read port: 45655
+1649571806994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:49257"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:49257"
+1649571809080	Marionette	INFO	Stopped listening on port 45655
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+80942
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649571875775	geckodriver	INFO	Listening on 127.0.0.1:55457
+1649571876283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53507" "-no-remote" "-profile" "/tmp/rust_mozprofilepX1Zmj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649571879300	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepX1Zmj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53507/devtools/browser/eac82e29-39b6-4370-9779-e75558d27fa6
+1649571883084	Marionette	INFO	Listening on port 43283
+Read port: 43283
+1649571883124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649571893517	Marionette	INFO	Stopped listening on port 43283
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649571895006	geckodriver	INFO	Listening on 127.0.0.1:47539
+1649571895513	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33125" "-no-remote" "-profile" "/tmp/rust_mozprofileMmBNYA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649571898384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMmBNYA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33125/devtools/browser/89893db5-28bd-4c30-8d14-d1dcd3fbafde
+1649571902387	Marionette	INFO	Listening on port 34025
+Read port: 34025
+1649571902448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:49257"
+1649571903323	Marionette	INFO	Stopped listening on port 34025
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1649571948159	geckodriver	INFO	Listening on 127.0.0.1:43737
+1649571948668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40759" "-no-remote" "-profile" "/tmp/rust_mozprofileAtGzu6"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649571951519	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAtGzu6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40759/devtools/browser/fca0260b-1e08-48eb-9b6c-748997a94ba8
+1649571955680	Marionette	INFO	Listening on port 40415
+Read port: 40415
+1649571955798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649571958629	Marionette	INFO	Stopped listening on port 40415
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+81909
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1649572024550	geckodriver	INFO	Listening on 127.0.0.1:46233
+1649572025059	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57487" "-no-remote" "-profile" "/tmp/rust_mozprofileQGFwnu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649572027870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQGFwnu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57487/devtools/browser/d38bf3b7-b454-4f6d-83f0-60034cba37a8
+1649572031414	Marionette	INFO	Listening on port 46813
+Read port: 46813
+1649572031966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649572034376	Marionette	INFO	Stopped listening on port 46813
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649572038176	geckodriver	INFO	Listening on 127.0.0.1:47493
+1649572038685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46175" "-no-remote" "-profile" "/tmp/rust_mozprofileGC8lwH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649572041512	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGC8lwH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46175/devtools/browser/18a34b43-92ce-4f84-935d-7fdc422f380b
+1649572045840	Marionette	INFO	Listening on port 40199
+Read port: 40199
+1649572045922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649572088231	Marionette	INFO	Stopped listening on port 40199
