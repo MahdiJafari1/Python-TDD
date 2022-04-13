@@ -1,38 +1,11 @@
-import os
-import time
-
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-MAX_WAIT = 10
+from .base import FunctionalTest
 
 
-class NewVisitorTest(StaticLiveServerTestCase):
-    def setUp(self):
-        staging_server = os.environ.get("STAGING_SERVER")
-        if staging_server: 
-            self.live_server_url = 'http://' + staging_server
-        self.browser = webdriver.Firefox()
-
-    def tearDown(self):
-        self.browser.quit()
-
-    def wait_for_row_in_list_table(self, row_text):
-        start_time = time.time()
-        while True:
-            try:
-                table = self.browser.find_element(By.ID, "id_list_table")
-                rows = table.find_elements(By.TAG_NAME, "tr")
-                self.assertIn(row_text, [row.text for row in rows])
-                return
-            except (AssertionError, WebDriverException) as e:
-                if time.time() - start_time > MAX_WAIT:
-                    raise e
-                time.sleep(0.5)
-
+class NewVisitorTest(FunctionalTest):
     def test_can_start_a_list_for_one_user(self):
         self.browser.get(self.live_server_url)
 
@@ -83,11 +56,3 @@ class NewVisitorTest(StaticLiveServerTestCase):
         page_text = self.browser.find_element(By.TAG_NAME, "body").text
         self.assertNotIn("Buy peacock feathers", page_text)
         self.assertIn("Buy milk", page_text)
-
-    def test_layout_and_styling(self):
-        self.browser.get(self.live_server_url)
-        self.wait_for_row_in_list_table("1: testing")
-        inputbox = self.browser.find_element(By.ID, "id_new_item")
-        self.assertAlmostEqual(
-            inputbox.location["x"] + inputbox.size["width"] / 2, 512, delta=10
-        )
