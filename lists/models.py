@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Item(models.Model):
@@ -7,4 +8,7 @@ class Item(models.Model):
 
 
 class List(models.Model):
-    pass
+    
+    def get_absolute_url(self):
+        return reverse("view_list", kwargs={"id": self.id})
+    

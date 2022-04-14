@@ -16,13 +16,13 @@ def new_list(request):
         item.full_clean()
     except ValidationError:
         return render(request, "home.html", {"error": "You cannot have an empty list item"})
-    return redirect(reverse("view_list", args=[list_.id]))
+    return redirect(list_)
 
 
 def add_item(request, id):
     list_ = List.objects.get(id=id)
     Item.objects.create(text=request.POST["item_text"], list=list_)
-    return redirect(reverse("view_list", args=[list_.id]))
+    return redirect("view_list", list_.id)
 
 
 def view_list(request, id):
@@ -32,7 +32,7 @@ def view_list(request, id):
             item = Item(text=request.POST["item_text"], list=list_)
             item.full_clean()
             item.save()
-            return redirect(reverse("view_list", args=[list_.id]))
+            return redirect(list_)
         except ValidationError:
             error = "You can't have an empty list item"
 

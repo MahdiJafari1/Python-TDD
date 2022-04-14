@@ -3965,3 +3965,71 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 1649942010266	Marionette	INFO	Stopped listening on port 45443
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649942280201	geckodriver	INFO	Listening on 127.0.0.1:51281
+1649942280714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57493" "-no-remote" "-profile" "/tmp/rust_mozprofiles1Ktwh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649942283901	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles1Ktwh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57493/devtools/browser/55c3470a-a224-497a-b4db-e353c62d0dd8
+1649942289918	Marionette	INFO	Listening on port 39725
+Read port: 39725
+1649942289965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649942300432	Marionette	INFO	Stopped listening on port 39725
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649942302203	geckodriver	INFO	Listening on 127.0.0.1:48945
+1649942302713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35149" "-no-remote" "-profile" "/tmp/rust_mozprofileOzfoQ2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649942307274	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOzfoQ2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35149/devtools/browser/a84dd18a-2aab-4cf0-beea-29277fbde6f2
+1649942312232	Marionette	INFO	Listening on port 36099
+Read port: 36099
+1649942312354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:33067"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:33067"
+1649942323710	Marionette	INFO	Stopped listening on port 36099
+1649942327575	geckodriver	INFO	Listening on 127.0.0.1:52461
+1649942328088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53573" "-no-remote" "-profile" "/tmp/rust_mozprofileCpVvYa"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649942331085	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCpVvYa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53573/devtools/browser/5a3653d8-860f-4a5d-9994-9f39a3227b50
+1649942334951	Marionette	INFO	Listening on port 35723
+Read port: 35723
+1649942335035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:41201"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649942345963	Marionette	INFO	Stopped listening on port 35723
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649942347718	geckodriver	INFO	Listening on 127.0.0.1:42265
+1649942348229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59559" "-no-remote" "-profile" "/tmp/rust_mozprofileaM3K1c"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649942351484	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaM3K1c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59559/devtools/browser/12f52757-e826-4075-8781-6c8555dd02fc
+1649942356509	Marionette	INFO	Listening on port 40445
+Read port: 40445
+1649942356588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:41201"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649942367587	Marionette	INFO	Stopped listening on port 40445
