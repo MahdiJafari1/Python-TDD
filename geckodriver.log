@@ -3805,3 +3805,94 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 1649940495374	Marionette	INFO	Stopped listening on port 35635
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649940657658	geckodriver	INFO	Listening on 127.0.0.1:39879
+1649940658168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40345" "-no-remote" "-profile" "/tmp/rust_mozprofileu8vK6k"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649940661734	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu8vK6k/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40345/devtools/browser/4bdef729-369f-4783-8801-7314ca040e8e
+1649940667034	Marionette	INFO	Listening on port 41363
+Read port: 41363
+1649940667112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:43801"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:43801"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649940678181	Marionette	INFO	Stopped listening on port 41363
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649940895388	geckodriver	INFO	Listening on 127.0.0.1:34549
+1649940895895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34989" "-no-remote" "-profile" "/tmp/rust_mozprofile8CsHt8"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649940899100	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8CsHt8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34989/devtools/browser/227252b5-a8d9-4323-9ce6-e870ab47eb38
+1649940903079	Marionette	INFO	Listening on port 46385
+Read port: 46385
+1649940903132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649940913902	Marionette	INFO	Stopped listening on port 46385
+1649940917833	geckodriver	INFO	Listening on 127.0.0.1:40971
+1649940918341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53685" "-no-remote" "-profile" "/tmp/rust_mozprofileqQYa9q"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649940923165	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqQYa9q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53685/devtools/browser/8498b598-0728-4005-8a94-3f54092cca74
+1649940927278	Marionette	INFO	Listening on port 37377
+Read port: 37377
+1649940927386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:51791"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:51791"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649940938136	Marionette	INFO	Stopped listening on port 37377
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649940942063	geckodriver	INFO	Listening on 127.0.0.1:45947
+1649940942573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38815" "-no-remote" "-profile" "/tmp/rust_mozprofile1pSVVf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649940945382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1pSVVf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38815/devtools/browser/ea75a75c-a5e1-4b0f-84c5-d89b4b8cedd0
+1649940949224	Marionette	INFO	Listening on port 33043
+Read port: 33043
+1649940949310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:32989"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649940960133	Marionette	INFO	Stopped listening on port 33043
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649940963668	geckodriver	INFO	Listening on 127.0.0.1:35567
+1649940964179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60099" "-no-remote" "-profile" "/tmp/rust_mozprofileWnpwvx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649940967018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWnpwvx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60099/devtools/browser/1a834b26-3060-48a2-919f-b3007edddca2
+1649940971038	Marionette	INFO	Listening on port 41889
+Read port: 41889
+1649940972219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:32989"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649940983122	Marionette	INFO	Stopped listening on port 41889
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
