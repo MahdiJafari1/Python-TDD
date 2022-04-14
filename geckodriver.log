@@ -3896,3 +3896,72 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 1649940983122	Marionette	INFO	Stopped listening on port 41889
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1649941923538	geckodriver	INFO	Listening on 127.0.0.1:49139
+1649941924051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49759" "-no-remote" "-profile" "/tmp/rust_mozprofileaTr07R"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649941927171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaTr07R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49759/devtools/browser/57295bf5-df8b-4688-baec-6dff78286a25
+1649941931799	Marionette	INFO	Listening on port 40363
+Read port: 40363
+1649941931896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649941942400	Marionette	INFO	Stopped listening on port 40363
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649941946606	geckodriver	INFO	Listening on 127.0.0.1:40947
+1649941947112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38871" "-no-remote" "-profile" "/tmp/rust_mozprofileV5DNqv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649941950389	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV5DNqv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38871/devtools/browser/c2eba441-15ab-4d5a-bcf2-d1807a6d9aed
+1649941954836	Marionette	INFO	Listening on port 36277
+Read port: 36277
+1649941954949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:60707"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:60707"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649941966293	Marionette	INFO	Stopped listening on port 36277
+1649941968683	geckodriver	INFO	Listening on 127.0.0.1:36129
+1649941969191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42981" "-no-remote" "-profile" "/tmp/rust_mozprofileZXnR61"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649941972388	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZXnR61/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42981/devtools/browser/886c1120-05e4-4623-9f01-f14c9c3f7a08
+1649941976933	Marionette	INFO	Listening on port 39191
+Read port: 39191
+1649941977030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:49143"
+1649941988248	Marionette	INFO	Stopped listening on port 39191
+1649941989903	geckodriver	INFO	Listening on 127.0.0.1:58841
+1649941990412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50325" "-no-remote" "-profile" "/tmp/rust_mozprofileeWln7c"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649941993975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeWln7c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50325/devtools/browser/d160b54f-6a0d-4c40-9137-a99ceb00e599
+1649941998558	Marionette	INFO	Listening on port 45443
+Read port: 45443
+1649941998729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:49143"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1649942010266	Marionette	INFO	Stopped listening on port 45443
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
