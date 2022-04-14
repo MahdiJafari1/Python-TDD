@@ -28,13 +28,13 @@ def add_item(request, id):
 def view_list(request, id):
     list_ = List.objects.get(id=id)
     if request.method == 'POST':
-        item = Item(text=request.POST["item_text"], list=list_)
-        return redirect(reverse("view_list"))
-    return render(request, "list.html", {"list": list_})
+        try: 
+            item = Item(text=request.POST["item_text"], list=list_)
+            item.full_clean()
+            item.save()
+            return redirect(reverse("view_list", args=[list_.id]))
+        except ValidationError:
+            error = "You can't have an empty list item"
 
-    try: 
-        item.full_clean()
-        item.save()
-    except ValidationError:
-        list_.delete()
-        return render(request, "home.html", {"error": "You cannot have an empty list item"}) 
+    return render(request, "list.html", {"list": list_, "error": error})
+
