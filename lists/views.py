@@ -1,6 +1,5 @@
 from django.forms import ValidationError
 from django.shortcuts import redirect, render
-from django.urls import reverse
 
 from lists.models import Item, List
 
@@ -14,27 +13,25 @@ def new_list(request):
     item = Item.objects.create(text=request.POST["item_text"], list=list_)
     try:
         item.full_clean()
+        item.save()
     except ValidationError:
-        return render(request, "home.html", {"error": "You cannot have an empty list item"})
+        list_.delete()
+        return render(
+            request, "home.html", {"error": "You cannot have an empty list item"}
+        )
     return redirect(list_)
-
-
-def add_item(request, id):
-    list_ = List.objects.get(id=id)
-    Item.objects.create(text=request.POST["item_text"], list=list_)
-    return redirect("view_list", list_.id)
 
 
 def view_list(request, id):
     list_ = List.objects.get(id=id)
-    if request.method == 'POST':
-        try: 
+    if request.method == "POST":
+        try:
             item = Item(text=request.POST["item_text"], list=list_)
             item.full_clean()
             item.save()
             return redirect(list_)
         except ValidationError:
-            error = "You can't have an empty list item"
+            error = "You cannot have an empty list item"
+            return render(request, "list.html", {"list": list_, "error": error})
 
-    return render(request, "list.html", {"list": list_, "error": error})
-
+    return render(request, "list.html", {"list": list_})
