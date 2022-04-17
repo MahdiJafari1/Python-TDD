@@ -1,6 +1,8 @@
+from unittest import skip
+
 from django.test import TestCase
 from django.urls import reverse
-from lists.forms import ItemForm, EMPTY_ITEM_ERROR
+from lists.forms import EMPTY_ITEM_ERROR, ItemForm
 from lists.models import Item, List
 
 
@@ -52,6 +54,19 @@ class NewListTest(TestCase):
     def test_for_invalid_input_passes_form_to_template(self):
         response = self.client.post(reverse("new_list"), data={"text": ""})
         self.assertIsInstance(response.context["form"], ItemForm())
+        
+    @skip
+    def test_duplicate_item_validation_errors_end_up_on_lists_page(self):
+        list1 = List.objects.create()
+        item1 = Item.objects.create(list=list1, text="textey")
+        response = self.client.post(
+            reverse("view_list", args=[list1.id]),
+            data={"text": "textey"}
+        )
+        
+        self.assertContains(response, "You have already got this in your list")
+        self.assertTemplateUsed(response, "list.html")
+        self.assertEqual(Item.objects.count(), 1)
 
 
 class ListViewTest(TestCase):
