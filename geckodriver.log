@@ -4271,3 +4271,19 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1650270869433	geckodriver	INFO	Listening on 127.0.0.1:34505
+1650270869841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42417" "-no-remote" "-profile" "/tmp/rust_mozprofileoCNEVw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1650270880631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoCNEVw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42417/devtools/browser/77413211-f92e-4954-845a-bc0d450c6e89
+1650270894124	Marionette	INFO	Listening on port 38581
+Read port: 38581
+1650270894473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:41457"
+1650270906395	Marionette	INFO	Stopped listening on port 38581
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
